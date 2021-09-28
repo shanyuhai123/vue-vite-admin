@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.quiet": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true, 
+  },
+
+  "vetur.validation.templateProps": true,
+  "vetur.validation.template": false,
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.format.styleInitialIndent": true,
+}

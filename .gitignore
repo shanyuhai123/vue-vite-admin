@@ -68,10 +68,6 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-.env.test
-
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
@@ -119,5 +115,11 @@ dist-ssr
 # code
 .DS_Store
 
-# env
-*.local
+# local and test env
+.env.local
+.env.*.local
+.env.test
+.env.*.test
+
+# custom
+package-lock.json

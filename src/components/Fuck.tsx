@@ -4,7 +4,7 @@ export default defineComponent({
   name: 'Fuck',
   setup () {
     return () => (
-      <span>WTF Admin</span>
+      <a-button>WTF Admin</a-button>
     )
   }
 })
