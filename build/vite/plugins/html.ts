@@ -1,5 +1,5 @@
 import { Plugin } from 'vite'
-import { ViteEnv } from '@/env'
+import { ViteEnv } from '@/types'
 
 export const htmlTitlePlugin = (viteEnv: ViteEnv): Plugin => {
   return {

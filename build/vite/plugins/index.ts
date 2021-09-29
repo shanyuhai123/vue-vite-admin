@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import styleImport from 'vite-plugin-style-import'
 import { htmlTitlePlugin } from './html'
-import { ViteEnv } from '@/env'
+import { ViteEnv } from '@/types'
 
 export const createVitePlugins = (mode: string, viteEnv: ViteEnv) => {
   const vitePlugins: (Plugin | Plugin[]) = [
